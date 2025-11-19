@@ -6,7 +6,7 @@ import { FaDiscord } from "react-icons/fa";
 
 export const personal = 
     {
-        title: "Patipol",
+        title: "Boom_Patipol",
         description: "This is my website feel free to explore here!",
         social: [
             {
@@ -55,7 +55,7 @@ export const about = {
         </>
     ),
     education: "King Mongkut's University Of Technology Thonburi (KMUTT)",
-    bachelor: "Bachelor of Engineering in Computer Engineering (CPE)",
+    bachelor: "Bachelor of Engineering in Copy and Paste Engineering (CPE)",
     hobbies: 'Sleep, Coding, Reading and Play game.',
     gameDiscription: "ปล.มาชวนเล่นได้นะ เหงาสุดๆTT  -->",
     game: [

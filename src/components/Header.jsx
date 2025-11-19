@@ -35,7 +35,7 @@ const ButtonGroupList = [
 
 const Header = () => {
   return (
-    <div className="w-full h-12 flex items-center justify-center mt-10 fixed z-10">
+    <div className="w-full h-12 flex items-center justify-center mt-10 fixed z-20">
         <div className="w-auto h-4/5 bg-white rounded-md absolute flex border border-gray-300 shadow-md">
             <ButtonGroup obj={ButtonGroupList} />
         </div>
