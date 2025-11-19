@@ -19,8 +19,14 @@ const PersonalData = () => {
           variants={fadeInUp}
           className="w-full flex flex-col items-center justify-center"
         >
-          <div className="text-[#363636] w-full h-40 flex items-center justify-center text-3xl md:text-7xl flex-col z-10">
-            <p>{personal.title}</p>
+          <div className="text-[#363636] w-full h-70 flex items-center justify-center text-3xl md:text-7xl flex-col z-10">
+            <p className="mb-3">Hi! I'm</p>
+            <p className="mb-5">
+              <span className="text-[#00c5c5]">{"<"}</span>
+              <span></span>
+              <span className="font-bold">{personal.title}</span>
+              <span className="text-[#00c5c5]">{"/>"}</span>
+            </p>
             <p className="text-[#363636] text-[16px] md:text-xl mt-2">
               {personal.description}
             </p>

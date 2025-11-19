@@ -23,18 +23,18 @@ const AboutPageData = () => {
                     <div className="w-full h-3/4 flex flex-col md:flex-row items-center md:items-start gap-5">
                         <div className="w-full h-[700px] md:h-full flex flex-col gap-5 md:gap-2">
 
-                            <div className="w-full h-auto md:h-1/3 p-3 flex flex-col bg-white shadow-[0_2px_5px_rgba(0,0,0,0.5)]">
+                            <div className="text-black w-full h-auto md:h-1/3 p-3 flex flex-col bg-white shadow-[0_2px_5px_rgba(0,0,0,0.5)]">
                                 <p className="text-3xl">{about.aboutmeTitle}</p>
                                 <p>{about.description}</p>
                             </div>
 
-                            <div className="w-full h-auto md:h-1/3 flex flex-col p-3 bg-white shadow-[0_2px_5px_rgba(0,0,0,0.5)]">
+                            <div className="text-black w-full h-auto md:h-1/3 flex flex-col p-3 bg-white shadow-[0_2px_5px_rgba(0,0,0,0.5)]">
                                 <p className="text-3xl">{about.educationTitle}</p>
                                 <p className="text-lg">{about.education}</p>
                                 <p className="text-lg">{about.bachelor}</p>
                             </div>
 
-                            <div className="w-full h-auto md:h-1/3 flex flex-col p-3 bg-white shadow-[0_2px_5px_rgba(0,0,0,0.5)] mb-3">
+                            <div className="text-black w-full h-auto md:h-1/3 flex flex-col p-3 bg-white shadow-[0_2px_5px_rgba(0,0,0,0.5)] mb-3">
                                 <p className="text-3xl">{about.hobbiesTitle}</p>
                                 <p className="text-lg">{about.hobbies}</p>
                             </div>

@@ -6,7 +6,7 @@ import { FaDiscord } from "react-icons/fa";
 
 export const personal = 
     {
-        title: "<Hi! I'm Patipol/>",
+        title: "Patipol",
         description: "This is my website feel free to explore here!",
         social: [
             {
