@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className="w-full h-20 md:h-40"></div>
         <PersonalData />
-        <div className="absolute z-50 bottom-0 right-0">
+        <div className="absolute z-50 bottom-0 right-0 animate-bounce rounded-4xl">
           <Image src={mrsB} height={430} width={500} alt="kuy" />
         </div>
       </div>
